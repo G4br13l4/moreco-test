@@ -1,0 +1,121 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+nav {
+    height: 14vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 3% 0%;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+/* Title Services*/
+.title {
+    height:28vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+/* Section Services  subs*/
+.subtitle {
+    width: 100%;
+}
+
+.service-subs {
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin:0% 1%;
+    height: 20vh;
+}
+
+.box-content{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 12%;
+}
+
+.subt-txt{
+     color: white;
+}
+
+/* Section Services  info*/
+.service-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.box-txt{
+    margin:0% 1%;
+    height: auto;
+    background: white;
+    color: black;
+    border: solid #E5E5E5 1px;
+}
+
+.box-info{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 2%;
+}
+
+/* API */
+.box-api{
+    margin:0% 1%;
+    height: auto;
+    background: rgb(165, 165, 218);
+    color: black;
+    border: solid #E5E5E5 1px;
+}
+
+
+/* General classes */
+.row {
+    width: 100%;
+}
+
+.md-1 {width:8.3%;}
+.md-2 {width:16.6%;}
+.md-4{width: 25%;}
+.md-5{width: 41.6%;}
+.md-8{width: 66.6%;}
+.md-10{width: 83.3%;}
+.md-12 {width:100%;}
+
+.pink{
+    background: #ED7161;
+}
+
+.orange {
+    background: #F5B262;
+}
+
+.grey {
+    background: #F5F5F5;
+}
